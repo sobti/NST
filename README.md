@@ -1,13 +1,25 @@
-# Neural File Transfer
+# 🖼️ Neural Style Transfer
 
-Neural File Transfer is an AI-assisted file transmission system that leverages deep learning to optimize, secure, and accelerate file transfers across devices or networks. This project explores the use of neural networks to enhance traditional file transfer methods by introducing intelligence in compression, encryption, routing, and error correction.
+Neural Style Transfer (NST) is a deep learning technique that blends the *content* of one image with the *style* of another, creating a new, stylized image. This project implements NST using convolutional neural networks (CNNs), typically built with PyTorch or TensorFlow.
+
+## 🎨 Example
+
+| Content Image | Style Image | Output Image |
+|---------------|-------------|--------------|
+| ![](/content.jpg) | ![](/style.jpg) | ![](/output.jpg) |
 
 ## 🚀 Features
 
-- ⚡ **Intelligent Compression**: Neural models that compress data efficiently while preserving fidelity.
-- 🔐 **Secure Transfers**: Built-in encryption modules powered by AI-driven key management.
-- 🧠 **Adaptive Routing**: Smart path optimization using neural networks to reduce latency.
-- 🔁 **Error Prediction & Correction**: Deep learning-based error detection and automatic correction.
-- 📊 **Performance Monitoring**: Real-time metrics and transfer diagnostics.
+- Supports custom content and style images
+- Adjustable style/content weight ratios
+- Option to save intermediate outputs
+- CPU and GPU support
+- Lightweight and easy to use
+
+## 🗂️ Project Structure
+
+
+
+
 
 
